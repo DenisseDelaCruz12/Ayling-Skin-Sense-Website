@@ -565,6 +565,8 @@ a:hover{
 
 @media screen and (max-width: 390px){
     
+  
+
     .logo{
         padding-left: 20px;
         height: 60px;
@@ -612,7 +614,6 @@ a:hover{
 
     .container {
         max-width: 390px;
-        width: 90%;
         max-height: 800px;
         background-color: #fff;
     }
@@ -621,6 +622,7 @@ a:hover{
     form{
         display: flex;
         flex-direction: column;
+        max-width: 390px;
     }
 
     .form-group {
@@ -635,13 +637,20 @@ a:hover{
     }
 
 
+    .text{
+        width: 300px;
+
+        text-align: center;
+    }
+
+
     input[type="text"],
     input[type="email"],
     input[type="tel"],
     textarea {
     flex: 1;
     min-width: 290px;
-    padding: 10px;
+  
     border: 1px solid #ddd;
     border-radius: 4px;
     font-size: 16px;
