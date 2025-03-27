@@ -722,6 +722,17 @@ a:hover{
         align-items: center;
     }
 
+     header ul{ 
+        gap: 5px;
+        font-size: 15px;
+
+    }
+
+    header ul li{
+        padding: 5px;
+        margin: 0px;
+    }
+
     .card{
         background-color: #fafafa;
         max-width: 200px;
