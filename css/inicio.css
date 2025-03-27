@@ -683,6 +683,15 @@ a:hover{
 }
 
 @media screen and (max-width: 480px){
+
+    .wholecontainer{
+        max-width: 100vw;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-self: center;
+    }
     
     .logo{
         padding-left: 20px;
